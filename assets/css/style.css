@@ -1,4 +1,6 @@
 body {
+    display: -webkit-flex;
+    display: -ms-flex;
     display: flex;
     min-height: 100vh;
     -webkit-flex-direction: column;
@@ -15,18 +17,25 @@ h1,h2,h3,h4,h5 {
 h1 {
     font-size: 28px;
 }
+h2 {
+    font-size: 22px;
+}
 hr {
     border: 1px solid #909090;
 }
 p {
     padding: 16px;
 }
-header {
+.d-f {
+    display: -webkit-flex;
+    display: -ms-flex;
     display: flex;
+}
+header {
     position: relative;
     height: 120px;
     background-color: #fff;
-    border-bottom: 3px solid #eee;
+    border-bottom: 5px solid #eee;
 }
 .header-wrapper {
     width: 960px;
@@ -63,13 +72,10 @@ nav {
 .content {
     width: 960px;
     margin: 48px auto;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
     flex: 1;
 }
-.content h1 {
-    color: #4aaaa1;
+.content h1, h2 {
+    color: #4aaaa5;
 }
 .about-me-section {
     background-color: #fff;
@@ -77,6 +83,7 @@ nav {
     width: 650px;
     padding: 16px;
     margin-right: 16px;
+    border: 3px solid #4aaaa5;
 }
 #about-me-heading {
     padding: 8px;
@@ -86,26 +93,23 @@ nav {
     width: 30%;
     margin: 0 auto;
     border-radius: 50%;
+    border: 3px solid #4aaaa5;
 }
 .about-me-text {
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
     flex-direction: row;
 }
 .connect-with-me {
     background-color: #fff;
     width: 270px;
     padding: 16px;
-    max-height: 90px;
+    max-height: 100px;
+    border: 3px solid #4aaaa5;
 }
-.connect-with-me h1 {
+.connect-with-me h2 {
+    padding: 8px;
     text-align: center;
 }
 .social-icons {
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
