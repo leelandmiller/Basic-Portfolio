@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/seigaiha.png);
+    background-repeat: repeat;
+    background-size: 20%;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h1 {
+    font-size: 28px;
+}
+header {
+    display: flex;
+    position: relative;
+    height: 120px;
+    background-color: #fff;
+    border-bottom: 3px solid #eee;
+}
+.header-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+.brand {
+    background-color: #4aaaa5;
+    display: inline-flex;
+    padding: 24px;
+    float: left;
+    position: absolute;
+    bottom: 0;
+}
+#brand-name {
+    color: #fff;
+}
+nav {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    float: right;
+}
+.nav-link {
+    display: inline-block;
+    padding: 10px 16px;
+}
+.nav-link a {
+    color: #888;
+    text-decoration: none;
+}
+.nav-link a:hover {
+    color: #333;
+}
+hr
+{
+    border: 1px solid #909090;
+}
+.content {
+    width: 960px;
+    margin: 48px auto;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex: 1;
+}
+.content h1 {
+    color: #4aaaa1;
+}
+.about-me {
+    background-color: #fff;
+    float: left;
+    width: 650px;
+    padding: 16px;
+    margin-right: 16px;
+}
+#about-me-heading {
+    padding: 8px;
+}
+.connect-with-me {
+    background-color: #fff;
+    width: 270px;
+    padding: 16px;
+    max-height: 90px;
+}
+.connect-with-me h1 {
+    text-align: center;
+}
+.social-icons {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+footer {
+    height: 120px;
+    background-color: #666;
+    border-top: 5px solid #4aaaa5;
+}
