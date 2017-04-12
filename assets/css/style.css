@@ -15,6 +15,12 @@ h1,h2,h3,h4,h5 {
 h1 {
     font-size: 28px;
 }
+hr {
+    border: 1px solid #909090;
+}
+p {
+    padding: 16px;
+}
 header {
     display: flex;
     position: relative;
@@ -54,10 +60,6 @@ nav {
 .nav-link a:hover {
     color: #333;
 }
-hr
-{
-    border: 1px solid #909090;
-}
 .content {
     width: 960px;
     margin: 48px auto;
@@ -69,7 +71,7 @@ hr
 .content h1 {
     color: #4aaaa1;
 }
-.about-me {
+.about-me-section {
     background-color: #fff;
     float: left;
     width: 650px;
@@ -78,6 +80,18 @@ hr
 }
 #about-me-heading {
     padding: 8px;
+}
+#profile-pic {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.about-me-text {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: row;
 }
 .connect-with-me {
     background-color: #fff;
